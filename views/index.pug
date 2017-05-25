@@ -1,0 +1,7 @@
+extends ../partials/layout.pug
+
+block content
+	each article in articles
+		h2= article.fields.title
+		p!= article.fields.content
+

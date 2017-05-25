@@ -1,0 +1,32 @@
+{
+  "name": "puppy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "deploy": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitterulf/puppy.git"
+  },
+  "author": "bitterulf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitterulf/puppy/issues"
+  },
+  "homepage": "https://github.com/bitterulf/puppy",
+  "dependencies": {
+    "contentful": "^4.3.0",
+    "dotenv": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-pug": "^3.3.0",
+    "marked": "^0.3.6",
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.3",
+    "unirest": "^0.5.1"
+  }
+}
